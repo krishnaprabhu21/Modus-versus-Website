@@ -1,0 +1,182 @@
+body {
+  background: #f3f3f3; }
+
+.navbar-default {
+  margin-bottom: 0px !important;
+  background-color: #76c7c0 !important;
+  border-color: transparent !important;
+  border-radius: 0px !important;
+  color: #fff; }
+
+.navbar-header > .navbar-brand {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li:not(:last-child) {
+  margin-right: 10px; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a.active {
+  background: #62a29e;
+  margin-top: 5px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  margin-bottom: 7px;
+  border-radius: 7px;
+  border-bottom: 4px solid #528b86; }
+
+.navbar-default .navbar-nav > li > a.active:hover,
+.navbar-default .navbar-nav > li > a.active:visited {
+  color: #fff; }
+
+.navbar-default .navbar-nav > li > a:not(.active):hover,
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus,
+.navbar-default .navbar-nav > .open > a:hover {
+  color: #fff;
+  background: #e8645a;
+  margin-top: 5px;
+  padding-top: 11px;
+  padding-bottom: 10px;
+  margin-bottom: 7px;
+  border-radius: 7px;
+  border-bottom: 4px solid #e2534b; }
+
+.navbar-nav > .dropdown > #menu_tooltip {
+  position: absolute;
+  display: none;
+  bottom: -5px;
+  z-index: 100; }
+
+.navbar-nav > li > .dropdown-menu {
+  margin-top: 5px;
+  padding: 5px;
+  background: #e2534b;
+  right: inherit !important;
+  left: 0px !important;
+  border-radius: 5px;
+  border: 0px; }
+
+.navbar-nav > li > .dropdown-menu > li {
+  padding: 2px; }
+
+.navbar-nav > li > .dropdown-menu > li > a {
+  padding: 7px 20px !important;
+  color: #fff;
+  border-radius: 3px;
+  background: #e5655d; }
+
+.navbar-nav > li > .dropdown-menu > li > a:hover {
+  background: #76c7c0; }
+
+.navbar-default .navbar-form {
+  display: none; }
+
+.navbar-default .navbar-form input {
+  border-radius: 25px; }
+
+.carousel-control .glyphicon-menu-left, .carousel-control .icon-prev {
+  position: absolute;
+  padding: 10px 5px;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  left: 0% !important;
+  background: #e8645a;
+  border-radius: 0px 5px 5px 0px; }
+
+.carousel-control .glyphicon-menu-right, .carousel-control .icon-next {
+  position: absolute;
+  padding: 10px 5px;
+  top: 50%;
+  z-index: 5;
+  display: inline-block;
+  right: 0% !important;
+  background: #e8645a;
+  border-radius: 5px 0px 0px 5px; }
+
+.carousel-caption h3 {
+  padding: 5px 10px;
+  text-transform: uppercase;
+  display: inline-block;
+  background: #e8645a; }
+
+.carousel-caption p {
+  padding: 5px 20px;
+  display: inline-block;
+  background: #3f4646; }
+
+#top_container .panel-default .panel-body {
+  background: #ececec; }
+
+#top_container .panel-default .panel-body h3 {
+  display: inline-block;
+  color: #7f8c8c; }
+
+#top_container .panel-default .panel-body p {
+  display: inline-block;
+  color: #878787; }
+
+#top_container .panel-default .panel-body button {
+  position: relative;
+  bottom: 20px;
+  background: #e8645a; }
+
+.contents {
+  width: 23.35% !important;
+  padding: 50px 10px 100px 10px;
+  text-align: center;
+  background: #f8f8f8; }
+
+.contents button {
+  position: absolute;
+  bottom: -15px;
+  color: #fff;
+  border-radius: 7px; }
+
+.contents:first-child {
+  background: #fff; }
+
+.contents:first-child button {
+  background: #76c7c0;
+  border-bottom: 4px solid #62b9b0; }
+
+.contents:not(:first-child) button {
+  background: #e8645a;
+  border-bottom: 4px solid #e2534b; }
+
+.contents:not(:last-child) {
+  margin-right: 25px; }
+
+footer#top {
+  padding: 40px 0px;
+  background: #76c7c0; }
+
+footer#top h4 {
+  margin-top: 20px !important; }
+
+footer#top ul {
+  padding-left: 15px;
+  list-style-type: none;
+  color: #fff; }
+
+footer#top ul li a {
+  color: #fff; }
+
+footer#top ul li a:hover {
+  text-decoration: none; }
+
+footer#top img {
+  transform: scale(0.9); }
+
+footer#bottom {
+  padding: 15px;
+  background: #6ab3ac;
+  color: #fff; }
+
+footer#bottom a i {
+  transform: scale(1.7);
+  color: #fff; }
+
+footer#bottom a:not(:last-child) {
+  margin-right: 20px; }
