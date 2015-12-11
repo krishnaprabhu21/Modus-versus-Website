@@ -134,6 +134,14 @@ body {
 	background: #3f4646;
 }
 
+#top_container {
+	padding-bottom: 50px;
+}
+
+#top_container .panel-default {
+	margin-bottom: 50px;
+}
+
 #top_container .panel-default .panel-body {
 	background: #ececec;
 }
@@ -187,6 +195,65 @@ body {
 	margin-right: 25px;
 }
 
+#middle_container {
+	text-align: center;
+
+	h3 {
+		color: #e1524b;
+	}
+
+	p#middle_subtitle {
+		margin-bottom: 60px;
+	}
+
+	#middle_img {
+		margin-bottom: 30px;
+	}
+
+	h4 {
+		color: #7f8c8c;
+		font-weight: bold;
+	}
+
+	span {
+		margin-right: 10px;
+		color: #e1524b; 
+	}
+
+	p#middle_text {
+		margin-bottom: 50px;
+		text-align: left;
+	}
+
+	#client_testi_container {
+
+		div#client_testi {
+			// margin-bottom: 10px;		
+			padding: 15px;
+			border-radius: 5px;
+			background: #fff;
+			text-align: initial;
+		}
+
+		img {		
+		    position: absolute;
+		    left: 40px;			
+		}
+
+		span#client_name {			
+		    margin-top: 15px;
+		    color: #7f7f7f;
+		    font-weight: bold;
+		    left: -20px;
+		    top: 10px;
+		    position: relative;
+		}
+
+	}
+
+
+}
+
 footer#top {
 	padding: 40px 0px;
 	background: $site-green;
@@ -228,3 +295,4 @@ footer#bottom a i {
 footer#bottom a:not(:last-child) {
 	margin-right: 20px;
 }
+
