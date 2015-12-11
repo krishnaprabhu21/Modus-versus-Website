@@ -10,10 +10,16 @@ body {
 
 .navbar-default {
 	margin-bottom: 0px !important;
+	padding: 10px 0px;
     background-color: $site-green !important;
     border-color: transparent !important;	
     border-radius: 0px !important;
     color: #fff;
+
+	border-image-width: 10px;	
+	border-image-source: url(../images/navline.png);
+	border-image-slice: 0 15 20 20;
+	border-image-repeat: repeat;	    
 }
 
 .navbar-header > .navbar-brand {
@@ -195,68 +201,112 @@ body {
 	margin-right: 25px;
 }
 
-#middle_container {
-	text-align: center;
+.container-fluid#middle {
+	background: rgba(236,236,236,1);
+	background: -moz-linear-gradient(top, rgba(236,236,236,1) 0%, rgba(236,236,236,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(236,236,236,1)), color-stop(36%, rgba(236,236,236,1)), color-stop(36%, rgba(255,255,255,1)), color-stop(36%, rgba(255,255,255,1)), color-stop(37%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top, rgba(236,236,236,1) 0%, rgba(236,236,236,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top, rgba(236,236,236,1) 0%, rgba(236,236,236,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top, rgba(236,236,236,1) 0%, rgba(236,236,236,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom, rgba(236,236,236,1) 0%, rgba(236,236,236,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 36%, rgba(255,255,255,1) 37%, rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ececec', endColorstr='#ffffff', GradientType=0 );
 
-	h3 {
-		color: #e1524b;
-	}
+	#middle_container {
+		text-align: center;
 
-	p#middle_subtitle {
-		margin-bottom: 60px;
-	}
-
-	#middle_img {
-		margin-bottom: 30px;
-	}
-
-	h4 {
-		color: #7f8c8c;
-		font-weight: bold;
-	}
-
-	span {
-		margin-right: 10px;
-		color: #e1524b; 
-	}
-
-	p#middle_text {
-		margin-bottom: 50px;
-		text-align: left;
-	}
-
-	#client_testi_container {
-
-		div#client_testi {
-			// margin-bottom: 10px;		
-			padding: 15px;
-			border-radius: 5px;
-			background: #fff;
-			text-align: initial;
+		h3 {
+			color: #e1524b;
 		}
 
-		img {		
-		    position: absolute;
-		    left: 40px;			
+		p#middle_subtitle {
+			margin-bottom: 60px;
 		}
 
-		span#client_name {			
-		    margin-top: 15px;
-		    color: #7f7f7f;
-		    font-weight: bold;
-		    left: -20px;
-		    top: 10px;
-		    position: relative;
+		#middle_img {
+			margin-bottom: 30px;
 		}
 
-	}
+		h4 {
+			color: #7f8c8c;
+			font-weight: bold;
+		}
 
+		span {
+			margin-right: 15px;
+			color: #e1524b; 
+		}
+
+		p#middle_text {
+			margin-bottom: 50px;
+			padding: 0px 10px;
+			text-align: left;
+		}
+
+		#client_testi_container {
+
+			div#client_testi {
+				// margin-bottom: 10px;		
+				padding: 15px;
+				border-radius: 5px;
+				background: #fff;
+				text-align: initial;
+			}
+
+			img {		
+			    position: absolute;
+			    left: 40px;			
+			}
+
+			span#client_name {			
+			    margin-top: 15px;
+			    color: #7f7f7f;
+			    font-weight: bold;
+			    left: -20px;
+			    top: 10px;
+			    position: relative;
+			}
+
+		}
+
+		.row:nth-child(2) {
+			margin-bottom: 20px;
+		}
+
+		#client_silder_holder {
+
+			h4 {
+				margin-top: 0px;
+			}
+
+			img {
+				margin-top: 5px;
+			}
+
+			a {
+				position: relative;
+				top: -15px;
+			}
+		}
+
+		#slider_wrapper {
+			margin: 20px 0px 20px 0px; 
+
+			.slide_items {
+				margin-bottom: 20px;
+			}
+		}
+
+	}	
 
 }
 
 footer#top {
 	padding: 40px 0px;
 	background: $site-green;
+	border-image-width: 15px;	
+	border-image-source: url(../images/line.png);
+	border-image-slice: 20 15 0 20;
+	border-image-repeat: repeat;	
 }
 
 footer#top h4 {
